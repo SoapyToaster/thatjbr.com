@@ -1,0 +1,17 @@
+name = "Ethereal"
+description = "Hugo port of HTML5 UP's Spectral theme"
+homepage = "https://github.com/insertgithere/ethereal-hugo-theme"
+license = "CC BY-SA 4.0"
+licenselink = "https://creativecommons.org/licenses/by-sa/4.0/"
+tags = ["resume", "portfolio", "blog"]
+features = ["blog", "responsive", "multilingual"]
+min_version = "0.22"
+
+[author]
+  name = "JBRobinson aka drpdeadredd"
+  homepage = "https://www.thatjbr.com"
+
+[original]
+  name = "Spectral"
+  homepage = "https://html5up.net/spectral"
+  repo = "https://html5up.net/spectral/download"

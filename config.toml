@@ -1,0 +1,140 @@
+baseURL = "http://www.thatjbr.com/"
+title = "that J.B.Robinson"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "ethereal"
+
+
+
+[params]
+fancyTitle = "JBRobinson"                                                                                                                                                                      # title for frontpage, may include image
+copyright = "JBR aka DrpdeadRedd"
+description = 'Graphic Designer<br/>Cyber Security Consultant<br/>Onsite Security Specialist<br/>Developer<br/>Freelance & For Hire.'
+startbuttonText = "Contact"
+startbuttonLink = "#contact"
+body_is_markdown = true
+#custom_css = "custom.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+
+[[params.menu.main]]
+url = '/info'
+title = "What is thatjbr.com?"
+
+[[params.menu.main]]
+url = '/#contact'
+title = "J.B.Robinson"
+
+[[params.menu.main]]
+url = '/'
+title = '- Home'
+
+[[params.menu.main]]
+url = '/past/'
+title = "- Past"
+
+[[params.menu.main]]
+url = '/present/'
+title = "- Present"
+
+[[params.menu.main]]
+url = '/future/'
+title = "- Future"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
+[params.one]
+enable = true
+title = 'An industry that is constantly shifting, changing, and evolving needs fluidity not rigidity.'
+body = 'Self-taught, self-actualized, and possessing an education borne of experience, curiosity, and passion has allowed me to embrace creativity and shirk convention. The flexibility that drives innovation is borne on a lack of formality and experimentation. I am in possession of the same knowledge as everyone else, the difference is that I came to it of my own discovery and not by relying on faith that it had been done by another.  '
+
+[[params.one.icon]]
+icon = "fa-terminal"
+style = "1"
+label = "SysAdmin"
+
+[[params.one.icon]]
+icon = "fa-code"
+style = "2"
+label = "Development"
+
+[[params.one.icon]]
+icon = "fa-sitemap"
+style = "3"
+label = "Adoption"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+title = 'Graphic Design and Content Creation.'
+body = 'Logo and Brand creation, photo editing, social media posts, any and all graphics and content creation.'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Application Development.'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'On Site and Network Penetration Testing and Security Consultation'
+body = 'From on site inflitration scenarios to Network penetrations, any and all attack vectors covered. Have your entire company tested with emphasis on social engineering, on site infiltration, DDoS attacks, Ransomware, Malware, and more. Protect your data, resources, and other valuables.'
+
+[params.three]
+enable = true
+title = 'Accumsan mus tortor nunc aliquet'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.'
+
+[[params.three.feature]]
+icon = "fa-code"
+title = "Python"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-web"
+title = "HTML/CSS"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[params.cta]
+enable = true
+title = "Coming Soon."
+body = "A crypto-cutrrency for the rest of us. No idea how crypto-currencies work? Want to know but too afraid to ask? Want to profit with as little work and knowledge as possible? "
+
+[[params.cta.link]]
+href = "/crypto/griftcoin/"
+text = "GriftCoin"
+special = true
+
+[[params.cta.link]]
+href = "crypto"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact J.B.Robinson"
+body = "Need a little more information? Please submit all inquiries here."
+email = "admin@thatjbr.com"
+subject = "I want to hire/sponsor JBRobinson!"
+plain = false
+
+[params.social]
+mastodon = "drpdeadredd"
+github = "@drpdeadredd"
+instagram = "drop.dead.redd"
+discord = "drpdeadredd"
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[language.es]
+weight = 0
+languagename = "Spanish"
